@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
   int n;
-  if (!(cin>>n)) {
+  if (cin>>n) {
     if (n < 0)
   return 1;
   }
