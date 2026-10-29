@@ -8,19 +8,21 @@ using namespace std;
 
 int main() {
     int n;
-    std::cin>>n;
+    cout << "Enter the number: " << endl;
+    cin>>n;
     int even_count = 0;
     int odd_count = 0;
-    if (cin>>n) return 1;
     for (int i = 0; i < n; ++i) {
         int t;
-    }
+        cout << "Enter a number: " << endl;
+        cin >> t;
         if (t % 2 == 0) {
             even_count ++;
         } else {
             odd_count ++;
         }
     }
-    cout << even_count << " " << odd_count << endl;
+    cout << "even: " << even_count << endl;
+    cout << "odd: " << odd_count << endl;
     return 0;
 }
