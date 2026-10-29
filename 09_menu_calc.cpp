@@ -6,7 +6,7 @@ int main() {
     int operation;
     double num1, num2;
     cin >> operation >> num1 >> num2;
-    swich (operation) {
+    switch (operation) {
      case 1:
         cout <<num1 + num2 << endl;
         break;
